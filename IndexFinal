@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" coantent="width=device-width, initial-scale=1.0">
+        <title>Camden: Autobiography</title>
+    </head>
+
+    <body>
+        
+        <div>
+            <h1>Background</h1>
+
+            <p>I was born in Febuary, 2008 in Indiana.
+                At the time we had lived in an apartment, but we moved into a house by the time I was 2 years old.
+                Since I was so young, there isn't really another place I can associate with growing up other than our first house in Fisers.
+            </p>
+        </div>
+
+            <h2>Growing Up</h2>
+
+            <p>
+                The first house I lived in was in the perfect neighborhood. Alongisde being near the schools I went too, there was a neighborhood
+                pool, park, and a forrest trail. Most of my time was spend outside, playing random games with our next door neighbors,
+                some of which are still my best friends tody.
+            </p>
+
+        <div>
+
+            <h2>Childhood Interests</h2>
+
+            <p>
+                As I grew up, my interests began to shape what I would do from day to day.
+
+                Here are some of my favorite things as a kid, with some extra details:
+            </p>
+
+
+                <ul>
+                    <li>
+                        Legos
+                        <ol>
+                            <li>
+                                I loved making my own creations and the proccess of making sets was my favorite, as I was fascinated by the designs
+                            </li>
+                            <li>
+                                If you look ahead before reading this, you can probably assume that I was a big fan of Lego Star Wars as well.
+                            </li>   
+                        </ol>
+                    <li>
+                        Movies
+                        <ol>
+                            <li>
+                                Star wars was my favorite franchises growing up, everything from the veichles to the characters, I though it was awesome.
+                            </li>
+                            <li>
+                                I was also a big fan of marvel movies, especally Iron Man. I enjoyed the marvel video games too.
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        Drawing
+                        <ol>
+                            <li>
+                                Drawing characters or whatever inspired me was what I did most. While the drawings weren't amazing,
+                                I enjoyed making them, and over time I got better as I grew older.
+                            </li>
+                        </ol>
+                    </li>
+                </ul> 
+       
+            <h2><em>Modern Day</em></h2>
+            <p>
+                In present day, we have moved from the house that I spend my childhood in, but I'd say I'm pretty similar to who I was 10 years ago.
+            </p>
+
+        </div>
+
+        <div>
+
+            <hr>
+
+            <h1>Hobbies</h1>
+
+            <p>
+                These are some things I enjoy doing, either with other people or just myself. Chances are, if I have free time, I'm doing one of these things.
+            </p>
+
+            <div style="background-color: black;">
+
+                <table border = "1"; style="border-color:rgb(255, 255, 255);">
+
+                    <thead style="background-color: black;">
+                        <tr style="color: azure;">
+                            <th>Ranking</th>
+                            <th>Name</th>
+                            <th>Descritpion</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr style="color: azure;">
+                            <th ; style="background-color: rgb(255, 82, 79);"><strong>S</strong></td>
+                            <td>Drawing</td>
+                            <td>
+                                Either it be on paper, on my ipad, or on my computer, I am always trying to improve and draw something new. I also find it relaxing, especially after doing homework.
+                            </td>
+                        </tr>
+                        <tr style="color: azure;">
+                            <th style="background-color: rgb(57, 219, 68);"><strong>A</strong></td>
+                            <td>Playing Piano</td>
+                            <td>
+                                I have a lot of fun playing music, I've never recording anything, but I usually just improvise and experiemnt with fun new scales or things I learn online. Its an oppurtunity to be creative, and similar to drawing, sometimes playing music can be a good way to debrief.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+</html>
+
+
+<!--
+History section - where did you grow up, when you were born, etc.
+
+Hobbies section - what do you like to do in your free time?
+(must be in a table, 3 columns minimum, 5 rows minimum: number, name of hobbie, and description)
+
+Your favorite movies & music sections - What is your favorite movie & music? (must be an ordered list)
+
+A picture of you and of something related to your hobbies or favorites section.
+
+5 links to your favorite Youtube Videos - think music, movie trailers, etc.
+
+Each section is worth 10 points and must be easy to read (headings, descriptions, text styling, etc)
+-->
