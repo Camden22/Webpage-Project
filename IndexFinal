@@ -3,14 +3,26 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" coantent="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Camden: Autobiography</title>
     </head>
 
     <body>
+
+        <h3 id="BackToTop">Quick Navigation Links</h3>
+
+        <a href="#Hobbies" class = "Hobbies">Hobbies</a>
+    <br>
+        <a href="#FavoriteMusic" class = "Favorite Music">Favorite Music</a>
+    <br>
+        <a href="#Favorite Movies" class = "Favorite Movies">Favorite Movies</a>
+    <br>
+        <a href="#Favorite Videos" class = "Favorite Videos">Favorite Videos</a>
         
-        <div>
-            <h1>Background</h1>
+
+
+        <div style="background-color: rgb(148, 230, 255);">
+            <h1 style="background-color: rgb(179, 255, 255);">Background</h1>
 
             <p>I was born in Febuary, 2008 in Indiana.
                 At the time we had lived in an apartment, but we moved into a house by the time I was 2 years old.
@@ -18,17 +30,17 @@
             </p>
         </div>
 
-            <h2>Growing Up</h2>
+            <h2 style="background-color: rgb(179, 255, 255);">Growing Up</h2>
 
-            <p>
+            <p style="background-color: rgb(172, 233, 252);">
                 The first house I lived in was in the perfect neighborhood. Alongisde being near the schools I went too, there was a neighborhood
                 pool, park, and a forrest trail. Most of my time was spend outside, playing random games with our next door neighbors,
                 some of which are still my best friends tody.
             </p>
 
-        <div>
+        <div style="background-color: rgb(137, 228, 255);">
 
-            <h2>Childhood Interests</h2>
+            <h2 style="background-color: rgb(174, 255, 255);">Childhood Interests</h2>
 
             <p>
                 As I grew up, my interests began to shape what I would do from day to day.
@@ -70,14 +82,14 @@
                     </li>
                 </ul> 
        
-            <h2><em>Modern Day</em></h2>
+            <h2 style="background-color: rgb(174, 255, 255);"><em>Modern Day</em></h2>
             <p>
                 In present day, we have moved from the house that I spend my childhood in, but I'd say I'm pretty similar to who I was 10 years ago.
             </p>
 
         </div>
 
-        <div>
+        <div id="Hobbies">
 
             <hr>
 
@@ -87,7 +99,9 @@
                 These are some things I enjoy doing, either with other people or just myself. Chances are, if I have free time, I'm doing one of these things.
             </p>
 
-            <div style="background-color: black;">
+<!--Table with 3 columns and 6 rows. I turned the number requirement into a rank for each of the hobbies based off of how often I do them, and how much I enjoy them.-->
+
+            <div style="background-color: black;" >
 
                 <table border = "1"; style="border-color:rgb(255, 255, 255);">
 
@@ -101,17 +115,36 @@
 
                     <tbody>
                         <tr style="color: azure;">
-                            <th ; style="background-color: rgb(255, 82, 79);"><strong>S</strong></td>
+                            <th rowspan = "2"; style= "background-color: rgb(255, 82, 79);"><strong>S</strong></td>
                             <td>Drawing</td>
                             <td>
-                                Either it be on paper, on my ipad, or on my computer, I am always trying to improve and draw something new. I also find it relaxing, especially after doing homework.
+                                Either it be on paper, on my ipad, or on my computer, I am always trying to improve and draw something new. I also find it relaxing, especially with the addition of music, or a series to watch while sketching.
                             </td>
                         </tr>
                         <tr style="color: azure;">
-                            <th style="background-color: rgb(57, 219, 68);"><strong>A</strong></td>
                             <td>Playing Piano</td>
                             <td>
-                                I have a lot of fun playing music, I've never recording anything, but I usually just improvise and experiemnt with fun new scales or things I learn online. Its an oppurtunity to be creative, and similar to drawing, sometimes playing music can be a good way to debrief.
+                                I have a lot of fun playing music, I've never recording anything, but I usually just improvise and experiemnt with fun new scales or things I learn online. Its an oppurtunity to be creative, and similar to drawing, sometimes playing music can be a good way to debrief. I have the most fun playing music with my brother.
+                            </td>
+                        </tr>
+                        <tr style="color: azure;">
+                            <th rowspan = "3"; style="background-color: rgb(57, 219, 68);"><strong>A</strong></th>
+                            <td>Videogames</td>
+                            <td>I mostly play <em>Call of Duty, Overwatch, or Mortal Kombat</em>. Multiplayer games are the most fun with friends, so I'll either play with my brother or call with another friend while playing.</td>
+                        </tr>
+                        <tr style="color: azure;">
+                            <td>Watching Shows</td>
+                            <td>I'm a big fan of the Office and Curb Your Enthusiasm. My family and I will often spend out evenings watching shows together, occasionally movies. Watching shows with my family goes in <strong>S tier</strong> specifically, as family time beats out most other hobbies.</td>
+                        </tr>
+                        <tr style="color: azure;">
+                            <td>Basketball</td>
+                            <td>Either if I'm shooting around, playing a scrimage game, or playing against my brother, I have a lot of fun. I used to play basketball in a league throughout intermediate and junior high, so it's nice to get oppurtunities to play again whilst not playing on a team.</td>
+                        </tr>
+                        <tr style="color: azure;">
+                            <th style="background-color: rgb(41, 156, 48);"><strong>A-</strong></th>
+                            <td>Running</td>
+                            <td>
+                                Over the summer I would routinely go out and run, I'm not too consistent with going out and running, but when I decide to do so, I enjoy the accomplishment of finishing out the run. The stretching after is nice too.
                             </td>
                         </tr>
                     </tbody>
@@ -120,25 +153,158 @@
             </div>
 
         </div>
+    <br>
+    <br>
+        <hr>
+    <br>
+
+        <div>
+
+            <h1 style="background-color: rgb(172, 233, 252);" id="FavoriteMusic">Music</h1>
+
+            <p style="background-color: rgb(199, 242, 255);">
+            As someone who plays an instrument, I appreciate music very much. I enjoy listening to it whilst doing something creative, where music can be a driving factor as opposed to getting in the way of my thoughts. For example, if I have to read for an assignemnt and I'm listening to music with lyrics. So if I'm drawing, getting busy work done, or <em>coding a website for a project</em>, music is perfect.
+            </p>
+<br>
+            <p style="background-color: rgb(199, 242, 255);">
+            Below is a list of my favorite types of music, consisting of songs and the artists behind them. Enjoy!
+            </p>
+
+            <ol>
+
+                <li>
+                    <h3>Overall Artist</h3>
+
+                    <ul>
+                        <li><strong>Artist:</strong> AJR</li>
+                        <li><strong>Favorite Song:</strong> Christmas in June</li>
+                        <li><strong>Favorite ALbum:</strong> OK ORCHESTRA</li>
+                    </ul>
+
+                </li>
+
+                <img src="https://www.livenationentertainment.com/wp-content/uploads/2021/07/AJR_Press-Photo_Photo-Credit-Shervin-Lainez.png" width = 374 height = 272>
+
+                <li>
+                    <h3>Indie Rock</h3>
+
+                    <ul>
+                        <li><strong>Artist:</strong> Quarters of Change</li>
+                        <li><strong>Favorite Song:</strong> Rift</li>
+                        <li><strong>Favorite ALbum:</strong> Into the Rift</li>
+                    </ul>
+
+                </li>
+                
+                <img src="https://i.scdn.co/image/ab67616d0000b273705ac2cba1c0ad8ce908faf2" width = 350 height = 350>
+                
+                <li>
+                    <h3>Electronic Music</h3>
+
+                    <ul>
+                        <li><strong>Artist:</strong> Camellia</li>
+                        <li><strong>Favorite Song:</strong> Crystalized</li>
+                        <li><strong>Favorite ALbum:</strong> UUFO</li>
+                    </ul>
+
+                </li>
+
+                <img src="https://static.tvtropes.org/pmwiki/pub/images/camellia_6.jpg">
+
+                <li>
+                    <h3>Movie Score</h3>
+
+                    <ul>
+                        <li><strong>Artist:</strong> Daniel Pemberton</li>
+                        <li><strong>Favorite Song:</strong> Guggenheim Assemble</li>
+                        <li><strong>Favorite ALbum:</strong> Spider-Man Across the Spider-Verse(Original Score)</li>
+                    </ul>
+
+                </li>
+
+                <img src="https://i.scdn.co/image/ab67616d0000b273183a93277b6ceece310fa366" width = 340 height = 340>
+
+                <li>
+                    <h3>Game Soundtrack</h3>
+
+                    <ul>
+                        <li><strong>Artist:</strong> DM DOKURO</li>
+                        <li><strong>Favorite Song:</strong> Universal Collapse</li>
+                        <li><strong>Favorite ALbum:</strong>Tale of a Cruel World(Calamity Original Game Soundtrack)</li>
+                    </ul>
+
+                </li>
+
+                <img src="https://f4.bcbits.com/img/a2145936506_10.jpg" width = 340 height = 340 allign = "right" >
+
+            </ol>
+
+        </div>
+
+<br>
+
+        <div>
+
+<hr>
+
+            <h1 style="background-color: rgb(199, 242, 255);" id="Favorite Movies">Movies</h1>
+
+            <h4>
+                I've enjoyed movies more and more as I've grown up, even when I've already seen one multiple times, theres always something new to notice since the last time I've watched it.
+            </h4>
+
+            <ol>
+                <li>
+                    <h3>Live Action</h3>
+
+                    <ul>
+                        <li>Avengers: Age of Ultron</li>
+                        <li>Iron Man</li>
+                        <li>Star Wars: Revenge of the Sith</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Animated</h3>
+
+                    <ul>
+                        <li>Spider-Man Across the Spider-Verse</li>
+                        <li>Wall-E</li>
+                    </ul>
+                </li>
+            </ol>
+
+        </div>
+
+<hr>
+
+        <div>
+            <h1 style="background-color: rgb(199, 242, 255);" id="Favorite Videos">Favorite Youtube Videos</h1>
+
+            <a href="https://www.youtube.com/watch?v=6GEI3PpXEAo" style="background-color: rgb(167, 234, 255);">Mint Jams (Music)</a>
+<br>
+<br>
+            <a href="https://www.youtube.com/watch?v=Yz5oE5Ff8JU" style="background-color: rgb(144, 229, 255);">Midtown Piano Cover</a>
+<br>
+<br>
+            <a href="https://www.youtube.com/watch?v=s79HnsUdV3c" style="background-color: rgb(119, 223, 255);">Em Funk jazz Solo</a>
+<br>
+<br>
+            <a href="https://www.youtube.com/watch?v=5rpPtwIQrtI" style="background-color: rgb(85, 215, 255);">Spiderman Fan Animation</a>
+<br>
+<br>
+            <a href="https://www.youtube.com/watch?v=Jl4DNGCk8js" style="background-color: rgb(41, 205, 255);">Funky Life Piano Synthesia</a>
+        </div>
 
 
 
     </body>
 
+<br>
+<br>
+
+
 </html>
 
-
-<!--
-History section - where did you grow up, when you were born, etc.
-
-Hobbies section - what do you like to do in your free time?
-(must be in a table, 3 columns minimum, 5 rows minimum: number, name of hobbie, and description)
-
-Your favorite movies & music sections - What is your favorite movie & music? (must be an ordered list)
-
-A picture of you and of something related to your hobbies or favorites section.
-
-5 links to your favorite Youtube Videos - think music, movie trailers, etc.
-
-Each section is worth 10 points and must be easy to read (headings, descriptions, text styling, etc)
--->
+<br>
+        <a href="#BackToTop" class = "BackToTop">Back to theTop</a>
